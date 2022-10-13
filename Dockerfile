@@ -14,5 +14,5 @@ EXPOSE 80
 VOLUME /usr/share/nginx/html
 
 # Run the Nginx server
-CMD ["/usr/sbin/nginx", "-g", "daemon off;"]
+CMD /usr/sbin/nginx
 
