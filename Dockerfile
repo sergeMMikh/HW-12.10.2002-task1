@@ -10,9 +10,6 @@ COPY html  /usr/share/nginx/html
 # Expose the port for access
 EXPOSE 80
 
-# Create volume
-VOLUME /usr/share/nginx/html
-
 # Run the Nginx server
 CMD /usr/sbin/nginx
 
